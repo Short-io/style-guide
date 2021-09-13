@@ -1,0 +1,25 @@
+{
+    "name": "@short.io/style-guide",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Short-io/style-guide.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Short-io/style-guide/issues"
+    },
+    "homepage": "https://github.com/Short-io/style-guide#readme",
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.31.0",
+        "@typescript-eslint/parser": "^4.31.0",
+        "eslint-plugin-security": "^1.4.0",
+        "prettier": "^2.4.0"
+    }
+}
