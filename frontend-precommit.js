@@ -5,8 +5,8 @@ module.exports = {
             "maximum": 1,
             "when": "always"
         }],
-        "react/jsx-first-prop-new-line": "multiline",
-        "react/jsx-indent-props": "tab",
+        "react/jsx-first-prop-new-line": [2, "multiline"],
+        "react/jsx-indent-props": [2, "tab"],
         "react/jsx-one-expression-per-line": 2,
         "react/jsx-closing-bracket-location": [2, {
             "selfClosing": "line-aligned",
