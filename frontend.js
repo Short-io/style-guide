@@ -41,14 +41,6 @@ module.exports = {
         "react/no-array-index-key": 2,
         "react/no-multi-comp": 2,
         "react/no-unstable-nested-components": 2,
-        "react/self-closing-comp": [2, {
-            "component": true,
-            "html": true
-        }],
-        "react/jsx-no-useless-fragment": 2,
-        "react/jsx-filename-extension": ["error", {
-            "extensions": [".tsx", ".jsx"]
-        }],
         "@typescript-eslint/naming-convention": [2, {
             "selector": "variable",
             "format": ["camelCase", "UPPER_CASE", "PascalCase"]
@@ -64,6 +56,12 @@ module.exports = {
         "@typescript-eslint/ban-ts-ignore": 0,
         "prefer-template": 2,
         "no-var": 2,
-        "linebreak-style": [2, 'unix'],
+        "linebreak-style": [2, "unix"],
+        "quotes": [2, "single", {
+            "avoidEscape": true
+        }],
+        "semi": [2, "always"],
+        "max-lines": 2,
+        "indent": [2, "tab"],
     },
 };
