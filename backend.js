@@ -11,6 +11,7 @@ module.exports = {
         "plugin:security/recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:you-dont-need-lodash-underscore/compatible"
     ],
     globals: {
         Atomics: "readonly",
