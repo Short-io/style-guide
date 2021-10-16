@@ -62,6 +62,6 @@ module.exports = {
         }],
         "semi": [2, "always"],
         "max-lines": 2,
-        "indent": [2, "tab"],
+        "indent": [2, "space"],
     },
 };
