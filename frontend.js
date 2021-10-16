@@ -57,7 +57,7 @@ module.exports = {
         "prefer-template": 2,
         "no-var": 2,
         "linebreak-style": [2, "unix"],
-        "quotes": [2, "single", {
+        "quotes": [2, "double", {
             "avoidEscape": true
         }],
         "semi": [2, "always"],
