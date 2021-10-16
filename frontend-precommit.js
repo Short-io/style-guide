@@ -20,8 +20,8 @@ module.exports = {
             "logical": "ignore",
             "prop": "ignore"
         }],
-        "react/jsx-indent": [2, "space"],
-        "react/jsx-indent-props": [2, "space"],
+        "react/jsx-indent": [2, 4],
+        "react/jsx-indent-props": [2, 4],
         "react/jsx-no-useless-fragment": 2,
     },
 };
