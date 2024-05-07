@@ -8,7 +8,6 @@ module.exports = {
     },
     extends: [
         "eslint:recommended",
-        "plugin:security/recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/eslint-recommended",
         "plugin:you-dont-need-lodash-underscore/compatible"
